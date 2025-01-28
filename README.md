@@ -1,4 +1,4 @@
-# Parse-CC-Base-Python
+# Parse-CC-Base-Java
 
 This is a parser for my personal notetaking, but I've uploaded it in case anyone else wants to take a crack at it. It 
 converts your story notes into a JSON format using Java. A sample story note organization may look like-
