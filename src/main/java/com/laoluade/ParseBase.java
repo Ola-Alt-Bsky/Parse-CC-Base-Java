@@ -74,7 +74,7 @@ public class ParseBase {
                 bwriter.newLine();
             }
             bwriter.close();
-            System.out.println("Characters have been saved to " + output_path + "_locations.txt.");
+            System.out.println("Locations have been saved to " + output_path + "_locations.txt.");
 
             // Songs
             bwriter = new BufferedWriter(new FileWriter(output_path + "_songs.txt."));
@@ -83,7 +83,7 @@ public class ParseBase {
                 bwriter.newLine();
             }
             bwriter.close();
-            System.out.println("Characters have been saved to " + output_path + "_songs.txt.");
+            System.out.println("Songs have been saved to " + output_path + "_songs.txt.");
         }
     }
 
