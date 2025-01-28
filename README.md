@@ -73,7 +73,7 @@ scenes.
 To run this program, first build the project with Maven, then run the script ParseBase.java using a Java JDK. This was 
 written using Java JDK 23 and Maven.
 
-Running the program will return a folder with the parsed JSON file of all your content, a list of characters, a list of 
+Running the program will return a folder called "Output" with the parsed JSON file of all your content, a list of characters, a list of 
 locations, and a list of songs. The program WILL crash if it can't find what is needed.
 
 Have fun!
