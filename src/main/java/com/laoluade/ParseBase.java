@@ -13,7 +13,12 @@ import org.json.JSONObject;
 public class ParseBase {
     public static void main(String[] args) throws IOException {
         // Read input from a .txt file
-        String file_path = "Casual Roleplay Base.txt";
+        Scanner input = new Scanner(System.in);
+        System.out.println("Welcome! You will need to enter in the location of your file.");
+        System.out.print("Enter in the ABSOLUTE file path of the base txt file: ");
+        String file_path = input.nextLine();
+        file_path = file_path.replace('"', ' ').trim();
+
         String[] file_lines = new String[0];
 
         // Try to retrieve the text from the file
@@ -38,7 +43,8 @@ public class ParseBase {
         String[] songs = get_items(parsed_json, 3);
 
         // Save the parsed JSON information to a folder
-        String output_dir = "Output";
+        String parent_dir = new File(file_path).getParent();
+        String output_dir = parent_dir + "/Output";
         String output_name = "Casual_Roleplay";
         String output_path = output_dir + "/" + output_name;
 
