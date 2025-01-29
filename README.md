@@ -71,9 +71,9 @@ Level Six indentation will have twelve spaces before the asterisk and text. Used
 scenes.
 
 To run this program, first build the project with Maven, then run the script ParseBase.java using a Java JDK. This was 
-written using Java JDK 23 and Maven.
+written using Java JDK 23 and Maven. You have to copy the file's path (AKA Casual Roleplay Base.txt) into the program terminal.
 
 Running the program will return a folder called "Output" with the parsed JSON file of all your content, a list of characters, a list of 
-locations, and a list of songs. The program WILL crash if it can't find what is needed.
+locations, and a list of songs. It will be saved to the same folder as your input base file. The program WILL crash if it can't find what is needed.
 
 Have fun!
